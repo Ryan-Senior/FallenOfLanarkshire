@@ -1,0 +1,207 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #ccc;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*--- navigation bar ---*/
+.navbar {
+  background: #333;
+  width: 100%;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+.navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.inline {
+  display: inline;
+}
+
+.link-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.link-button:focus {
+  outline: none;
+}
+
+/*--- header ---*/
+.header {
+  background-image: url("images/CameroniansKelvingrove5.jpg");
+  max-height: 525px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/*---descriptions---*/
+.description {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  -webkit-transform: translate(-50%, -55%);
+          transform: translate(-50%, -55%);
+  text-align: center;
+}
+
+.description h1 {
+  color: #fff;
+}
+
+.description p {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.description button {
+  border: 1px solid #fff;
+  background: #333;
+  border-radius: 0;
+  color: #fff;
+}
+
+.description button:hover {
+  border: 1px solid #fff;
+  background: #fff;
+  color: #000;
+}
+
+.features {
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
+}
+
+.feature-title {
+  color: #659ed3;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.feature-title-four {
+  color: #659ed3;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.feature-title-five {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.features img {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+}
+
+.spacing {
+  margin: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-shadow: 2px 2px 2px 2px #00000031;
+          box-shadow: 2px 2px 2px 2px #00000031;
+  padding: 15px;
+}
+
+/*--- map ---*/
+#mapid {
+  height: 500px;
+}
+
+/*--- Footer ---*/
+.page-footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 60px 0 30px;
+}
+
+.footer-copyright {
+  color: #666;
+  padding: 40px 0;
+}
+
+/*--- Contact Form ---*/
+.features .form-control,
+.features input {
+  border-radius: 0;
+}
+
+.features .btn {
+  background-color: #659ed3;
+  border: 1px solid #333;
+  color: #fff;
+}
+
+.features .btn:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #333;
+}
+
+/*--- Media Queries ---*/
+@media (max-width: 575.98px) {
+  .description {
+    left: 0;
+    padding: 0 100px;
+    padding-top: 100px;
+    position: absolute;
+    top: 10%;
+    -webkit-transform: none;
+            transform: none;
+    text-align: center;
+  }
+  .description h1 {
+    font-size: 2em;
+  }
+  .description p {
+    font-size: 1.2rem;
+  }
+  .features {
+    margin: 0;
+  }
+  .row {
+    margin: 0;
+  }
+  .class-help {
+    margin: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
